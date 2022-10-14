@@ -1,0 +1,5 @@
+snscrape
+pymongo
+pandas
+python-dotenv
+virtualenv
