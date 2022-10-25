@@ -11,7 +11,7 @@ class SetUpMongoDB:
         """ Imports a csv file from path csv_name to a new or existing mongo DataBase named db_name
             returns: count of the documants in the new collection
         """
-        client = MongoClient(db_url, db_port)
+        client = MongoClient(db_url, int(db_port))
         
         dbnames = client.list_database_names()
         if db_name not in dbnames:
