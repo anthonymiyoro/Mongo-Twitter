@@ -1,5 +1,5 @@
 snscrape
-pymongo
+pymongo[srv]
 pandas
 python-dotenv
 virtualenv
